@@ -3,7 +3,7 @@
   "version": "0.0.0-g896d36f92c",
   "displayName": "UniFi Connect Lighting",
   "description": "Homebridge plugin that allows you to control your UniFi connect lighting.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +14,7 @@
   },
   "author": "myNOC LLC",
   "license": "GNU GPLv3",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/erenken/homebridge-unifi-connect-lighting/issues"
   },
@@ -30,6 +31,7 @@
     "connect"
   ],
   "devDependencies": {
+    "@types/node": "^20.14.10",
     "homebridge": "^1.8.3"
   }
 }

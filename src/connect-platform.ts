@@ -1,7 +1,7 @@
 import { API, DynamicPlatformPlugin, Logging, PlatformAccessory, PlatformConfig, Service, Characteristic } from 'homebridge';
 
-import { PLATFORM_NAME, PLUGIN_NAME } from './settings';
-import { UniFiConnectLightingAccessory } from './platformAccessory';
+import { PLATFORM_NAME, PLUGIN_NAME } from './settings.js';
+import { UniFiConnectLightingAccessory } from './platformAccessory.js';
 
 /**
  * HomebridgePlatform
