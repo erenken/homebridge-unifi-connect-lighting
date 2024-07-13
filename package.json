@@ -5,6 +5,7 @@
   "description": "Homebridge plugin that allows you to control your UniFi connect lighting.",
   "main": "src/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

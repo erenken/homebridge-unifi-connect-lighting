@@ -1,0 +1,17 @@
+{
+    "bridge": {
+        "name": "Homebridge 2CCA",
+        "username": "0E:CB:5C:49:2C:CA",
+        "port": 51006,
+        "pin": "802-67-218",
+        "advertiser": "bonjour-hap"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "platform": "config"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 import { Service, PlatformAccessory, CharacteristicValue } from 'homebridge';
 
-import { UniFiConnectLightingPlatform } from './platform';
+import { UniFiConnectLightingPlatform } from './connect-platform';
 
 /**
  * Platform Accessory
