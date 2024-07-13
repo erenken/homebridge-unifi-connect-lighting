@@ -1,2 +1,1 @@
-# homebridge-unifi-connect-llighting
-HomeBridge to UniFi Connect Lighting
+#HomeBridge to UniFi Connect Lighting
