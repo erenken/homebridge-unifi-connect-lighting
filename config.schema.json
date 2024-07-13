@@ -9,7 +9,7 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "UniFi AP Lights"
+        "default": "UniFi Connect Lighting"
       },
       "host": {
         "title": "Host",
