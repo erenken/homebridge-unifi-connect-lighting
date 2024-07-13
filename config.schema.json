@@ -9,7 +9,25 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "Example Dynamic Platform"
+        "default": "UniFi AP Lights"
+      },
+      "host": {
+        "title": "Host",
+        "type": "string",
+        "required": true,
+        "description": "The hostname or IP address of the UniFi Controller, including port if necessary (e.g., '192.168.1.1:8443')."
+      },
+      "username": {
+        "title": "Username",
+        "type": "string",
+        "required": true,
+        "description": "The username for the UniFi Controller."
+      },
+      "password": {
+        "title": "Password",
+        "type": "string",
+        "required": true,
+        "description": "The password for the UniFi Controller."
       }
     }
   }
