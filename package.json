@@ -6,6 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
+    "debug": "homebridge -D -P . -U ./.homebridge",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
